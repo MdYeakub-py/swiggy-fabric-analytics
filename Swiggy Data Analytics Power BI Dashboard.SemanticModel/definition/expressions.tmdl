@@ -1,0 +1,11 @@
+expression 'DirectQuery to AS - Swiggy_Power_BI_Semantic_Model' =
+		let
+		    Source = AnalysisServices.Database("powerbi://api.powerbi.com/v1.0/myorg/Swiggy%20Data%20Analytics%20Project", "Swiggy_Power_BI_Semantic_Model"),
+		    Cubes = Table.Combine(Source[Data]),
+		    Cube = Cubes{[Id="Model", Kind="Cube"]}[Data]
+		in
+		    Cube
+	lineageTag: 7be52435-3226-4f81-a6c9-78f7d17d389f
+
+	annotation PBI_IncludeFutureArtifacts = True
+

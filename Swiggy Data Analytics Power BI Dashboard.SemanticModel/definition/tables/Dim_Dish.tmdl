@@ -1,0 +1,66 @@
+table Dim_Dish
+	lineageTag: 5f89c1e1-b422-4f93-b3e4-94c031c2825c
+	sourceLineageTag: 3ac56e7e-98b3-47be-94cd-ffe68891a86e
+
+	column dish_id
+		dataType: int64
+		isNullable: false
+		formatString: 0
+		lineageTag: 75f726c0-8a87-47b3-8c9d-26ef32dd6e8c
+		sourceLineageTag: 5211e9c3-02fa-4e6a-b540-4329e444d4fc
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: dish_id
+
+		annotation SummarizationSetBy = User
+
+	column category
+		dataType: string
+		lineageTag: fb43da18-53f1-4e93-a517-b19f3f009d8a
+		sourceLineageTag: 2a2b0bfe-c4a8-4c97-995a-478a8f0b7702
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: category
+
+		annotation SummarizationSetBy = User
+
+	column dish_name
+		dataType: string
+		lineageTag: 6925d14d-f5fa-4cf2-b5ea-e5cb82b9a194
+		sourceLineageTag: eda807b5-cf54-463a-a707-abf6ec49f70a
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: dish_name
+
+		annotation SummarizationSetBy = User
+
+	column 'Food Type' =
+			VAR _n = UPPER ( Dim_Dish[dish_name] )
+			RETURN
+			IF (
+			    ( CONTAINSSTRING ( _n, "CHICKEN" ) || CONTAINSSTRING ( _n, "MUTTON" ) || CONTAINSSTRING ( _n, "EGG" )
+			        || CONTAINSSTRING ( _n, "FISH" ) || CONTAINSSTRING ( _n, "PRAWN" ) || CONTAINSSTRING ( _n, "NON VEG" )
+			        || CONTAINSSTRING ( _n, "NONVEG" ) || CONTAINSSTRING ( _n, "NON-VEG" ) || CONTAINSSTRING ( _n, "KEEMA" )
+			        || CONTAINSSTRING ( _n, "SEAFOOD" ) || CONTAINSSTRING ( _n, "LAMB" ) || CONTAINSSTRING ( _n, "PORK" )
+			        || CONTAINSSTRING ( _n, "BEEF" ) || CONTAINSSTRING ( _n, "SHAWARMA" ) || CONTAINSSTRING ( _n, "PEPPERONI" )
+			        || CONTAINSSTRING ( _n, "BACON" ) || CONTAINSSTRING ( _n, "SAUSAGE" ) || CONTAINSSTRING ( _n, "SALAMI" )
+			        || CONTAINSSTRING ( _n, "HAM " ) || CONTAINSSTRING ( _n, "CRAB" ) || CONTAINSSTRING ( _n, "SHRIMP" )
+			        || CONTAINSSTRING ( _n, "TUNA" ) || CONTAINSSTRING ( _n, "ZINGER" ) || CONTAINSSTRING ( _n, "GRILLICKEN" ) )
+			        && NOT ( CONTAINSSTRING ( _n, "EGGLESS" ) || CONTAINSSTRING ( _n, "EGG LESS" ) ),
+			    "Non-Veg",
+			    "Veg"
+			)
+		dataType: string
+		lineageTag: 19743676-d6ff-4637-b683-214bada01460
+		summarizeBy: none
+
+		changedProperty = IsHidden
+
+	partition Dim_Dish = entity
+		mode: directQuery
+		source
+			entityName: Swiggy_project Dim_Dish
+			expressionSource: 'DirectQuery to AS - Swiggy_Power_BI_Semantic_Model'
+
+	changedProperty = Name
+

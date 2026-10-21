@@ -1,0 +1,93 @@
+table Dim_Date
+	lineageTag: ad773fa4-6d65-4026-9b2e-7a531474d5c9
+	sourceLineageTag: 2557090a-3990-4b3b-9dc7-1f19a9fd39f5
+
+	column date_id
+		dataType: int64
+		isNullable: false
+		formatString: 0
+		lineageTag: 386bf808-fd20-4535-9fed-5916a063198b
+		sourceLineageTag: c19a263d-8035-45fd-8d97-6bfdb72878e7
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: date_id
+
+		annotation SummarizationSetBy = User
+
+	column order_date
+		dataType: string
+		lineageTag: 4d2bd3d3-bc4c-4b0e-b0b7-9b3b23a7ceba
+		sourceLineageTag: e1fa5f96-e748-4ef3-abc5-a2fb9f6cb4eb
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: order_date
+
+		annotation SummarizationSetBy = User
+
+	column order_date_new
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 45417eba-a3d6-4ab6-8acc-74027e63f628
+		sourceLineageTag: fb1f8954-ec29-4701-8259-42b3d665c68b
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: order_date_new
+
+		annotation SummarizationSetBy = User
+
+	column 'Month No' = MONTH ( Dim_Date[order_date_new] )
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 4e40b6e2-bd4a-4310-852e-ebe692510538
+		summarizeBy: none
+
+		changedProperty = IsHidden
+
+	column 'Day No' = WEEKDAY ( Dim_Date[order_date_new], 2 )
+		dataType: int64
+		formatString: 0
+		lineageTag: cfa47631-97a9-442c-9d9b-a406169299c0
+		summarizeBy: none
+
+		changedProperty = IsHidden
+
+	column 'Week No' = WEEKNUM ( Dim_Date[order_date_new], 1 )
+		dataType: int64
+		formatString: 0
+		lineageTag: 4111c391-38f0-4c62-8036-b7806346187b
+		summarizeBy: none
+
+		changedProperty = IsHidden
+
+	column Quarter = "Q" & QUARTER ( Dim_Date[order_date_new] )
+		dataType: string
+		lineageTag: 4c13c973-20b6-44ba-bc18-ea279c90e28d
+		summarizeBy: none
+
+		changedProperty = IsHidden
+
+	column Month = FORMAT ( Dim_Date[order_date_new], "mmm" )
+		dataType: string
+		lineageTag: 2fee6883-0d86-4985-a847-f9a7c39810f3
+		summarizeBy: none
+		sortByColumn: 'Month No'
+
+		changedProperty = IsHidden
+
+	column Day = FORMAT ( Dim_Date[order_date_new], "ddd" )
+		dataType: string
+		lineageTag: 15b67fa8-dc2a-40d8-b336-365a1a306682
+		summarizeBy: none
+		sortByColumn: 'Day No'
+
+		changedProperty = IsHidden
+
+	partition Dim_Date = entity
+		mode: directQuery
+		source
+			entityName: Swiggy_project Dim_Date
+			expressionSource: 'DirectQuery to AS - Swiggy_Power_BI_Semantic_Model'
+
+	changedProperty = Name
+

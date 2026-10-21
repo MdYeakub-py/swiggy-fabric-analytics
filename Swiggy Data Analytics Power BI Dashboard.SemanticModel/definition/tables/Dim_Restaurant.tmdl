@@ -1,0 +1,34 @@
+table Dim_Restaurant
+	lineageTag: 9886cf93-be6d-405d-bb73-16524508f6dd
+	sourceLineageTag: 4f04d7bc-026d-4208-bc03-1d9e2edc23d1
+
+	column restaurant_id
+		dataType: int64
+		isNullable: false
+		formatString: 0
+		lineageTag: 1ea9896d-9bab-44f4-bfbb-3bb94b5fc435
+		sourceLineageTag: ce955626-3c37-42f8-9bf8-9bee3505052a
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: restaurant_id
+
+		annotation SummarizationSetBy = User
+
+	column restaurant_name
+		dataType: string
+		lineageTag: 8e1da715-bf0e-45d2-a716-84c6e7e5235e
+		sourceLineageTag: 4ab5e38e-778a-40ea-8e40-c8b8fe05eb65
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: restaurant_name
+
+		annotation SummarizationSetBy = User
+
+	partition Dim_Restaurant = entity
+		mode: directQuery
+		source
+			entityName: Swiggy_project Dim_Restaurant
+			expressionSource: 'DirectQuery to AS - Swiggy_Power_BI_Semantic_Model'
+
+	changedProperty = Name
+

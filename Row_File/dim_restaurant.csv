@@ -1,0 +1,994 @@
+restaurant_id,restaurant_name
+1,Anand Sweets & Savouries
+2,Srinidhi Sagar Deluxe
+3,Thalassery Restaurant
+4,Appu Donne Biriyani Palace
+5,Bismillah Taj Hotel
+6,Nisarga Family Daba
+7,Swadh Restaurant
+8,Sri Vinayaka Hot Chips
+9,Chinese Wok
+10,Pizza Hut
+11,A2B - Adyar Ananda Bhavan
+12,Big Bowl
+13,Olio - The Wood Fired Pizzeria
+14,KFC
+15,The Belgian Waffle Co.
+16,Kanti Sweets
+17,Polar Bear
+18,NIC Ice Creams
+19,Grameen Kulfi
+20,Quick Crave
+21,Nandhana Palace
+22,Dum Safar Biryani
+23,Subway
+24,Burger King
+25,Taco Bell
+26,The Good Bowl
+27,Kwality Walls Ice Cream and More
+28,Theobroma
+29,Baskin Robbins - Ice Cream Desserts
+30,chickpet Donne Biryani House
+31,LunchBox  Meals and Thalis
+32,NH1 Bowls - Highway To North
+33,McDonald's
+34,Bakingo
+35,Domino's Pizza
+36,"WeFit - Protein Bowls, Salads & Sandwiches"
+37,Daily Kitchen - Everyday Homely Meals
+38,RNR Biryani - Taste of 1953
+39,Andhra Gunpowder
+40,Wendy's Burgers
+41,"Faasos - Wraps, Rolls & Shawarma"
+42,LunchBox - Meals and Thalis
+43,EatFit
+44,Sweet Truth - Cake and Desserts
+45,The Biryani Life
+46,Cheesecake & co.
+47,Homely
+48,Great Indian Khichdi by EatFit
+49,Starbucks Coffee
+50,Home Plate by EatFit
+51,Tiffin Story
+52,ITC Master Chef Creations
+53,Chickpet Donne Biryani House
+54,HRX by EatFit
+55,Cafe Coffee Day
+56,La Pino'z Pizza
+57,Biryani By Kilo
+58,Goila Butter Chicken
+59,Pastas By Pizza Hut
+60,Paris Panini - Gourmet Sandwiches & Wraps
+61,Brik Oven - Original Sourdough Pizzas
+62,The Pizza Bakery - Wood Fired Sourdough
+63,Veg Meals by Lunchbox
+64,Blue Tokai Coffee Roasters
+65,ZAZA Mughal Biryani
+66,LeanCrust Pizza- ThinCrust Experts
+67,Good Flippin' Burgers
+68,Urban Tadka
+69,"Dabba Garam (Homestyle,Combo, Thali & More)"
+70,BOOM - Sub Style Sandwiches
+71,"Bhatti Chicken - Grilled, NOT Fried!"
+72,Hola Pasta - Fresh Gourmet Pasta
+73,Itminaan Matka Biryani - Slow Cooked
+74,Mealful Rolls - India's Biggest Rolls
+75,GLOBO Ice Creams Of The World
+76,BOX8 - Desi Meals
+77,Oven Story Pizza
+78,MOJO Pizza - 2X Toppings
+79,Apsara Ice Creams
+80,Suchali's Artisan Bakehouse
+81,Cinnabon
+82,Aromas Cafe & Bistro
+83,PizzaExpress
+84,Jumboking Burgers
+85,Baklavas By Mezaya
+86,Nom Nom: Asian Bar & Eatery
+87,Barbecue by Punjab Grill
+88,Copper Kitchen
+89,Salem RR Biriyani Unavagam
+90,Popeyes
+91,The Brownie Studio
+92,Buhari Hotel
+93,"Ovenfresh Pizzas, Cakes & Desserts"
+94,Junior Kuppanna
+95,Ss Hyderabad Biryani
+96,McCafe by McDonald's
+97,Sangeetha Veg Restaurant
+98,Anjappar
+99,Dindigul Thalappakatti - Since 1957
+100,Wow! Momo
+101,Wow! China
+102,"Frozen Bottle - Milkshakes, Desserts And Ice Cream"
+103,Meat and Eat
+104,Frozen Bottle
+105,Behrouz Biryani
+106,McDonald's Gourmet Burger Collection
+107,Ghar ka Khana by EatFit
+108,Bheemeshwara - A South Indian Delicacy
+109,Chaayos Chai+Snacks=Relax
+110,Wakhra Swaad
+111,Ghar Ka Tadka
+112,Thalairaj Biryani
+113,Natural Ice Cream
+114,Mad Over Donuts
+115,Donald's Pastry Shop
+116,Dunkin' - Donuts & Coffee
+117,Short Crust: Cakes & More
+118,Cheesecake & Co.
+119,Salad Days
+120,Hong's Kitchen - Hearty! Tasty! Chinese!
+121,Bikanervala
+122,Pikwik Since 1991
+123,Theth Masala
+124,AnTeRa Courtyard
+125,Labonel Fine Baking
+126,Agra Sweets Banjara
+127,Harley's Fine Baking
+128,Euphoria
+129,The Fisherman's Wharf
+130,Ovenfresh Cakes And Desserts
+131,Crusto's - Cheese Burst Pizza By Olio
+132,Faasos' Signature Wraps & Rolls
+133,Veg Darbar by Behrouz Biryani
+134,Makhani Darbar
+135,Firangi Bake
+136,ITC Aashirvaad Soul Creations
+137,Hanglaatherium
+138,FOOD EXPRESS
+139,Tasty Bite
+140,HNESHEL BURI
+141,Madhu's Kitchen
+142,Bangaliana
+143,Snehalata Fast Food
+144,The Ghee Khichdi Project
+145,Wow! Kulfi
+146,The Brooklyn Creamery - Healthy Ice Cream
+147,Baskin Robbins Happyness Shakes
+148,Shanghai Flavours of China Town
+149,Oudh 1590
+150,"The Dessert Heaven - Pastry, Brownie and Cakes"
+151,Cheesecakes By CakeZone
+152,Wow! Chicken By Wow! Momo
+153,6 Ballygunge Place Takeaway
+154,Myfroyoland - Premium Frozen Yogurt
+155,French Loaf Bakery & Cafe
+156,Tea Junction
+157,Vadilal Ice Creams
+158,Jay Bhavani Vadapav
+159,Burger Farm
+160,Tea Post
+161,Jayhind Sweets
+162,Sante Spa Cuisine
+163,Gwalia Sweets & Fast Food
+164,New Freeze Land
+165,1944 The Hocco kitchen
+166,Shakti - The Sandwich Shop
+167,Huber & Holly
+168,The Chocolate Room
+169,Nini's Kitchen
+170,La Milano Pizzeria
+171,The Paul Bakery
+172,Sethi Tikka Kabab Curry
+173,Bombay Mishthan Bhandar (Bmb) - Durapura
+174,Chhabra's Pure Veg
+175,Tan-Sukh By Kanha
+176,Cakes By Flower Aura
+177,Cake Studio
+178,The Cake Shop
+179,Sherawat Juice And Ice Cream Parlour
+180,Cake Town
+181,Mr. Cake Wala
+182,Cake Bake
+183,Cake Celebration
+184,Shree Shyam Bakery
+185,Hungry Point
+186,SHARMA DHABA
+187,IFC Pizza and Burger
+188,Rama Restaurant
+189,Mr. Pizza
+190,Momo Junction
+191,Dip N Bite
+192,Darjeeling Momos
+193,Grill Inn
+194,Dhaba 14
+195,Pasta Paradise
+196,The Bro Momos
+197,Dream Cafe Jaipur
+198,Fast Pizza
+199,Pizza Crust
+200,A Pizza House
+201,PINK CITY FOOD CORNER
+202,A Cheesy Sandwich
+203,Cafe Delight
+204,Laxmi Food Court
+205,Chinese Hut
+206,Rominus Pizza And Burger
+207,Kanji Sweets & Restaurant
+208,DMB Sweets Pvt Ltd
+209,Samosa Junction
+210,Cloud Kitchen
+211,Pizza King
+212,Rominus Pizza and Burger
+213,Bombay Misthan Bhandar
+214,Jamie Oliver's Pizzeria
+215,Street Foods by Punjab Grill
+216,Delights by INOX
+217,Red Dragon (Chopstix)
+218,Mahalaxmi Sweets & Restaurant
+219,Classic Radhey Sweets
+220,The Bon Bon Bakers
+221,Aryan Family's Delight
+222,Tunday Kababi
+223,Radhey Lal's Parampara Sweets
+224,Radhey Lal Premium Sweets
+225,Chahat Biryani
+226,Mr. Brown - Danbro
+227,Madhurima Veg
+228,Gola Sizzlers
+229,Street Foods By Punjab Grill
+230,Chili's American Grill & Bar
+231,Lord Petrick
+232,Sindhi Sweets
+233,Captain Sam's Pizza
+234,Ovenfresh
+235,Barista Coffee
+236,FNP Cakes By Ferns N Petals
+237,Caterspoint
+238,Ghee and Turmeric
+239,Saladspoint
+240,Krishna Restaurant
+241,Mr. Bakers
+242,Pal Sweet and Dhaba
+243,Hungerz
+244,Street 9
+245,The Oberoi Bakers
+246,Saffron
+247,Little Chef
+248,Takeout
+249,Krishna Cafe
+250,Amrit Sweets Phase 5
+251,Urban Pinds Food Factory
+252,Anardana
+253,Gopal's
+254,Punjab Grill
+255,Social
+256,Sanjha Chulha
+257,Gourmet Ice Cream Cakes by Baskin Robbins
+258,BOSS Burger
+259,Maa Ki Rasoi
+260,SK Bakers
+261,Ovenly by Khurana's
+262,Why Not Momos
+263,Tealogy Cafe
+264,INDIAN COFFEE HOUSE
+265,Burger Headquarter
+266,Edesia by Freshmenu
+267,Brahmins' Thatte Idli
+268,Aubree
+269,Udupi Grand
+270,ITC Sunfeast Baked Creations
+271,SMOOR
+272,Chai Point
+273,FreshMenu
+274,Paakashala
+275,Royal Indraprastha
+276,Hotel Annalakshmi
+277,The Idli Foundry
+278,Majaa Thindi
+279,SRIVARI BHIMMAS
+280,Bengaluru Central Cafe
+281,Kaati Zone Rolls & Wraps
+282,Lo! - Low Carb and Keto Foods
+283,Ovenfresh Cakes and Desserts
+284,Bowl Soul
+285,Shiv Sagar
+286,Poetry By Love & Cheesecake
+287,BK Cafe
+288,Bakingo-Cakes & Desserts
+289,Taaka Chinese
+290,Mani's Cafe
+291,Anna Snacks
+292,Laxmi Pure Veg
+293,Chetak Sweet Point
+294,Bikaner Sweets And Namkeen
+295,Kamats Legacy
+296,Radha Krishna
+297,Haldiram's Sweets and Namkeen
+298,Bombay Sweet Shop
+299,Hangout Cakes & More
+300,Shiv Sagar Veg Restaurant
+301,The Boston Cafe & Patisserie
+302,Veg Sizzel's
+303,Perambur Sri Srinivasa Sweets & Snacks
+304,Hot Breads
+305,French Loaf
+306,PS4 Veg Restaurant (Perambur Sri Srinivasa)
+307,House of Idlies
+308,Dou
+309,Chai Kings
+310,Sandy's Chocolate Laboratory
+311,Ratna Cafe (Estd.1948)
+312,Bhavyam Veg
+313,Sangeetha's Desi Mane - Annanagar
+314,Sree Vishnu Bhavan
+315,Priyas - Pure Veg
+316,Sri Ganga veg restaurant
+317,Sri Sindhu Bhavan
+318,Perambur Sri Annapoorani
+319,CakeZone Patisserie
+320,Seoul Burgers & Shakes
+321,Ranga Sai Andhra Tiffins
+322,Arusuvai Cafe
+323,Burgerama
+324,Costa Coffee
+325,Third Wave Coffee
+326,Hira Sweets And Confectionary Pvt. Ltd.
+327,Mr Bhatura
+328,Prime Bakery & Sweets
+329,Sagar Ratna
+330,Faasos Signature Wraps & Rolls
+331,"Greenox- Healthy Bites, Happy Lives"
+332,Hira Sweets
+333,Bhikharam Chandmal
+334,Kaleva
+335,Mithaas
+336,Kashyap chole kulche
+337,Krispy Kreme - Doughnuts & Coffee
+338,Dabba & Co.
+339,Idly Dosa for You
+340,Hotel Sitara Grand - Dhanturi Group of hotels
+341,Millet Express
+342,KS Bakers
+343,Rokali
+344,Varalakshmi Tiffins
+345,Shree Raghavendra
+346,The Airawat Kitchen
+347,Hotel Shubham Celebrations Dhanturi Group of Hotel
+348,Sri Varalakshmi Pure Veg Tiffins
+349,Parivaar Vegetarian
+350,Sri Tiffins
+351,Sri Venkateshwara Tiffin Center
+352,Taaza - All Day Breakfast
+353,Raja Sri Tiffins
+354,Go Zero Ice Creams & Desserts
+355,Wendy's Flavour Fresh
+356,Preeti Tiffins
+357,PVR Tiffins
+358,Hotel Surabhi udupi veg
+359,Hotel Shubham Palace - Dhanturi Group of Hotels
+360,Tiffinette
+361,The Yellow Straw
+362,Keventers - Milkshakes & Desserts
+363,Hindusthan Sweets
+364,Machhli Baba Fries
+365,So Southy
+366,Idleewala
+367,VIP Sweets Pvt. Ltd.
+368,Ganguram
+369,Cocoa Bakery
+370,Minus 30
+371,China Belly By Wow! Momo
+372,Chandimata Mistanna Bhander
+373,Panna Sweets & Restaurant
+374,South Indian Coffee House
+375,Kachori King
+376,Idlygo Plus
+377,Mio Amore - The Cake Shop
+378,Balaji Restaurant
+379,Lalaji Dilli Wale
+380,Krishna Chhole Bhature
+381,Gayatri Ganthiya
+382,Ram Krishna Dalbati
+383,RAM KRISHNA BHOJNALAY
+384,Rangoli Ice Cream
+385,ONE PLUS PIZZA HUB
+386,Sprouts Wale
+387,Food On Way
+388,Vipul Dudhiya Sweets
+389,Saurashtra Chawana & Sweets
+390,Sasuma
+391,Das Khaman
+392,Gita Samosa Centre
+393,Gwalia Sweets & Dairy Products
+394,Dmb(Doodh Misthan Bhandar)
+395,Bombay Mishthan Bhandar (Bmb) - Sanganeeri Gate
+396,Sodhani Sweets
+397,Roastery Coffee House
+398,Brown Sugar
+399,Shree Agarwal Caterers
+400,Sodhani Sweets And Namkeen
+401,Shri Ram Dhaba
+402,Apna Cafe
+403,Singh's Town Cafe
+404,Chinese Fast Food
+405,Puneet Misthan Bhandar
+406,Tan-Sukh by Kanha
+407,Harishankar Veg Restro
+408,Shri Shyam Bhature Wala
+409,Anandji Sweets
+410,Sambharsa
+411,Laduram Nanagram Mawawala
+412,Vanakkam Rajnikantham
+413,Vrindavan ki rasoi
+414,Pablo's Kitchen
+415,Siddhu Punjabi Bhojnalaya
+416,Chhote Lal Restaurant
+417,Ihm Wala
+418,Lazeez - Rooftop Lounge
+419,Neelkanth Sweets
+420,Mom's Kitchen
+421,Pizza Wings
+422,Indrani Sweets And Restaurant
+423,Health Mantra
+424,NBC - Nothing Before Coffee
+425,Rice Express By Shero
+426,Shri Ganpati Misthan Bhandar
+427,Shiv Bhandar
+428,Tea Time
+429,Mr Choco Bakery
+430,The Complete Comfort Zone
+431,The Hazelnut Factory
+432,The Pizza Project by Oven Story
+433,Yadav Doodh Dairy
+434,Ritz Mithai Vatika
+435,Vijay Dairy
+436,Burgrill - OG's of Grilled Burger
+437,Roll Xpress
+438,Ram Dairy
+439,Deep Sweets
+440,The Prashadam
+441,Bansal Amritsari Kulcha
+442,Apna Vaishno Dhaba
+443,Amritsari Food Platter
+444,Krishnaz
+445,The Food Villa
+446,Dhabha PB03
+447,RB Rolls And Fast Food
+448,Steam And Sizzle Cafe
+449,Uttam Sweets Bakery & Restaurant
+450,Gurukripa Restaurant - Sarwate
+451,Jain Mithai Bhandar (JMB)
+452,Vrindavan Restaurant
+453,Manbhawan Sweets
+454,Zaika Family Fast Food
+455,Grand Biryani Mahal
+456,Hotel Shagun
+457,Harilal's
+458,Punjabi Rasoi
+459,Winni Cakes & More
+460,Royal The City Club Restaurant
+461,Bunk Restro & Cafe
+462,City Nation Cafe
+463,Dilli Dhaba And Restaurant
+464,Kingdom of Momos
+465,Briyanis Mahal
+466,Cherry Sweets & Confectioners
+467,Krishnashree
+468,Annpurna Thali
+469,Patna Biryani Club
+470,N Chennai Express
+471,Bikaner Elite
+472,IGP Cakes
+473,7th Heaven
+474,Momo Nation Cafe
+475,Barbecue Live
+476,Elite Family Choice Restaurant
+477,Biryani Hut
+478,Paprika - Pramod Laddu Bhandar
+479,Kolkata Royal Biryani House
+480,Veer Ji Malai Chaap Wale
+481,Chai Sutta Bar
+482,Biryani Paradise
+483,Awadhi
+484,Matkawala
+485,Pour Tous
+486,Scholars
+487,Jugaad Jn
+488,Hotel Maharaja and Fast Food
+489,Shreelal Food Plaza
+490,Country Kitchen
+491,Biggies Burger
+492,Roti Ghar
+493,Shree Krishna Bhojanalaya
+494,Mio Amore
+495,Vaango
+496,Monginis Cake Shop
+497,Odiani Hotel & Restaurant
+498,Giani
+499,Prasadam Temple Prasad
+500,Priya Restaurant
+501,Asia Seven - Sizzling Chinese
+502,Classic 11
+503,Appetizer
+504,Mahalaxmi Sweets
+505,hotel Toshali
+506,Rajani's Kitchen
+507,Arabikaas Arabian Restaurant
+508,Swastik Mom's Kitchen
+509,M/S Girija Hotel
+510,Bawarchi Ac Family Restaurant
+511,New Mughlai Restaurant
+512,Delly Belly
+513,Burger Singh(Big Punjabi Burgers)
+514,Mughlai Restaurant
+515,Jagannath Mandir Arna Prasad
+516,Oberai Bakers & Cafe
+517,Bawarchi Fast Food
+518,Daawat-E   Biryani
+519,FNP- Ferns N Petals
+520,Om Sweets & Snacks
+521,Harish Bakery
+522,Mealy - Your Everyday Meal
+523,Tossin Pizza
+524,Alakapuri
+525,Rahmaniya Kethel's Chicken
+526,Gokul Oottupura
+527,Zaatar Arabic Restaurant
+528,Ifthar
+529,Palaaram
+530,Chiyang
+531,Malabar Plaza
+532,Pandhal Cake Shop
+533,Kudil Restaurant
+534,Samridhi At Kochi
+535,Golden Dragon
+536,I Deli Cafe
+537,THE PERSIAN TABLE
+538,Uthuppans Uppum Mulakum Restaurant
+539,Dessi Cuppa
+540,The Coconut
+541,Hotel Saj International
+542,Octopus Bakes and Bistro
+543,Snoosh Ice Cream Parlour
+544,Porch Grill Restaurant
+545,Supreme Upper Crust
+546,Cake Hut
+547,Club Shawaya
+548,Hotel Al Reem
+549,Papputt's Valsa Cafe
+550,Dubai Hut
+551,Cochin Rahumania
+552,Bektash
+553,Le Meridien - Latest Recipe
+554,Aryaas
+555,Rice N Roti
+556,Khana Khazana
+557,Kathi Junction
+558,Moti Mahal Delux
+559,Shree Gangaur
+560,Gangaur Govindam
+561,Urban Biryani
+562,Nasta Bakery
+563,The Food Court
+564,Jashn The Restaurant
+565,Bikkgane Biryani
+566,KAVERI's
+567,Gangaur Next
+568,Simla Chat
+569,Kuppuswami
+570,Churuwala
+571,The Bewakoof Hotel
+572,Brothers Bakery
+573,Wooden Spoon Restaurant
+574,Kalash Cloud Kitchen
+575,Shri Bhog Rasoi Dhaba
+576,Maa Sagar Sweets And Food Court
+577,Brijwasi Pure Veg
+578,Attitude Cafe And Restaurant Nxt
+579,Haveli Dhaba
+580,Salam Namaste Hotel & Restaurant
+581,K7 Hotel
+582,Kabab E Biryani
+583,Kaveri - Lalpur
+584,Aloo Pitika
+585,Spicy Affair
+586,Biryani Adda
+587,Blossom Cafe
+588,Taste Tekker
+589,Biryani Nation
+590,Loyans Bakery & Confectionery
+591,Biryani Hub
+592,Fat Belly
+593,Sardarji Da Dhaba
+594,7Th Heaven
+595,Cafe Go Green
+596,Y Not Food Express
+597,The Great Indian Kitchen
+598,Zam Zam Biryani
+599,Spice Garden
+600,Adda
+601,Red Chilly's - Spirits N Spices
+602,Quick Bites
+603,Hill View Holiday Home And Resort
+604,Brew Cafe
+605,KASTURI DHABA AND RESTAURANT
+606,Frozzeto
+607,JBs
+608,Sweet Truth
+609,Oriental Restaurant
+610,Confucius (Silpukhuri)
+611,Food Exx
+612,Home Kitchen
+613,Confucius (Christan Basti)
+614,Street Za
+615,Mast Biryani
+616,Noodle Kitchen
+617,Haldiram's Restaurant
+618,PVR Cafe
+619,Pind Balluchi
+620,Moti Mahal
+621,Big Hunger Ashoka Biryani
+622,Barbeque Nation
+623,"UBQ-Meals,Thalis & Bowls"
+624,MP's Kitchen
+625,Momo Cafe - Courtyard by Marriott
+626,Sandwich Junction
+627,MP Dhaba
+628,Babe da Dhaba
+629,Blackfern Restaurant
+630,Khana Khazana (Shankar Nagar)
+631,Rasoi Thali
+632,Chai Govindam
+633,New Delhi Sweets
+634,Anna Punjabi
+635,Ramdev's Khana Khazana
+636,Gopal's 56
+637,NDS Cafe
+638,Amritsari Restaurant Katora Talab
+639,New Little Hut Family Restaurant
+640,The Biryani moradabadi
+641,Udupi Cafe North India
+642,The Eleganza
+643,ROMNIK PIZZA
+644,Thali House
+645,The Retro Rolls
+646,Green Chilly
+647,Rollarappaa
+648,Udupi Cafe Bangalore Idli
+649,Satnam Punjabi Vaishno Dhaba
+650,Kite Restaurant
+651,Black Box Cafe
+652,Mahawar Baker's & Sweets
+653,Badmaash Kebabi
+654,Keventers Waffles & Ice Cream
+655,Handi Punjab Ki
+656,Walk In Woods
+657,Pandit Ji Sweets & Restaurant Dairy
+658,Oye Hoye Paratha
+659,Nazim Khan Kathi Roll
+660,Karigari - By Chef Harpal Singh Sokhi
+661,Kumar'S Sweet Shop (Jakhan)
+662,Kc Soup Bar
+663,Kalsang Friends Corner
+664,Pizza Italia
+665,Tree Cafe And Restaurants
+666,Downtown Multicuisine
+667,Punjabi Foods (Jakhan)
+668,La Pino'Z Pizza
+669,Uss Da Dhaba
+670,FAT TIGER
+671,Pyramid
+672,Logo Cafe
+673,Amar Bhojnalya
+674,Pyramid Express
+675,The Brew Estate
+676,Beekays
+677,Tara Bhojanalya
+678,Auckland Hotel And Restaurant
+679,37 The Central Restaurant
+680,Wood Street Cafe
+681,Singh's Tandoor.
+682,Jashan Restaurant
+683,Pizza town
+684,Sahib's Punjabi Tadka
+685,Sachins Dragon Villa
+686,Mountain's Pizza
+687,Sanjauli Cafe
+688,One Bites Sanjauli
+689,Kaushal Punjabi Rasoi
+690,Wendo's Pizza
+691,Mountain's Pizza Club
+692,Chullah
+693,New Chanakya
+694,Aao Ji Te Khao Ji
+695,Rolls Nation
+696,Grits N Gravy
+697,Pizzas Hub
+698,Ice & Spice
+699,Premjees
+700,Chef's Planet
+701,Mini Friends Corner
+702,Nanta Bakers
+703,Baker's Estate
+704,The Story House
+705,Mayur Hotel & Restaurant
+706,Momo Magic Cafe
+707,Urban Nawab
+708,Appetite Classic
+709,Izumi
+710,Angry Sardar Courtyard
+711,Sakana
+712,Cafe Cotinga
+713,Big Fat Sandwich & Pizza
+714,Takeout - Asian Goodness
+715,Babka Goa
+716,Cafe Sanaya
+717,Saudagar
+718,The Temptations - 24/7
+719,Navtara Veg Restaurant
+720,Dosa Hub
+721,Sopo
+722,Baba Au Rhum Badem
+723,Viggis
+724,Cafe S.F. Xavier
+725,AVO's Kitchen
+726,Mustard Cafe - Hotel Astoria
+727,Bawarchi - The Royal Chef
+728,Punjab Sind
+729,Cafe Sai Sadanand
+730,Friends Corner
+731,Dragon Panda
+732,Highway Kitchen
+733,Dharma Vaishno Dhaba
+734,Lacima Cafe & Pizzeria
+735,Pizza Jalapenia (Downtown)
+736,Vishal Vaishno Dhaba
+737,Momoxpress
+738,BIZZA Cafe Heritage
+739,Grill's
+740,Health Wealth Kitchen
+741,Kashmir Trout
+742,Stream Restaurant
+743,Little Persia
+744,Al-Baik
+745,Punjabi Darbaar Dhaba
+746,Krishna Vaishno Dhaba
+747,Red Chilliz
+748,Gulab Sweets And Restaurant
+749,The Hayat
+750,Grills Cafe
+751,Central Perk
+752,Idly & Dosai Delight
+753,Hotspot Grill
+754,Habitat Restaurant
+755,Jai Krishna Vaishno Dhaba
+756,New Shakti Sweets & Bakery
+757,Cafe Parizaad
+758,Food Hut
+759,The Grill Republic
+760,Roll's Hut
+761,Modern Foods Bakery & Restauran
+762,DQ Grill & Chill
+763,Miles - City Mall
+764,Cafe Ertugrul
+765,De Linz Cafe
+766,City Wok Restaurant
+767,Books & Bricks Cafe
+768,Rattan's Veg & Non Veg
+769,New Shakti Sweets
+770,Lhasa Restaurant
+771,Tibetan Bowl
+772,The Garage Cafe
+773,Mad For Momos
+774,Shahi Dhaba
+775,Yumburgs
+776,Brew n Bite
+777,Parsa's
+778,Barq Foods
+779,Pizza Jalapenia (Uptown)
+780,Krav
+781,Chick Blast (Rajbagh)
+782,Shakti Sweets Since 1966
+783,Snack-A-Boo
+784,The Master Chef
+785,Pizzmo
+786,The Meating Point
+787,Tiffin aaw
+788,Nathu'S Sweets And Restaurant
+789,Mughal Darbar Since 1999
+790,Gokul Dham Ka Dhaba
+791,Full House - Aquilaria Clubhouse
+792,Hotel Polo Towers
+793,Swasti Niramish Hotel
+794,Daya Hari Chatpata
+795,Sherowali Restaurant and Fast Foods
+796,Shyamasree Restaurant
+797,Daya Hari Mithai
+798,Sree Krishna Hotel
+799,Priya Biryani
+800,Sherowali Restaurant And Cafe
+801,Sherowali Bhoj- Non Veg Hotel & Restaurant
+802,Gopal Mistanna Bhandar
+803,Mantu Biryani
+804,Sherowali Sweets And Fast Foods
+805,Cake Plaza
+806,Suruchi
+807,Dawat
+808,Devi Fast Food
+809,Hotel Niramish Bhojanalay
+810,Steamin Mugs Cafe & Restaurant
+811,Try Me
+812,Abar Khabo
+813,Taste With Me !
+814,Shivansh fast food and restaurant
+815,Sherowali Sweets
+816,Radhe Bol
+817,Maa Saradar Ranna Ghor
+818,Cholo Khai
+819,Rupar Tori Hotel & Restaurant
+820,Frespresso
+821,UK Pizza Hut
+822,Hotel Rimi International
+823,Delicious Fast Food
+824,Tihar Flavours of Jail
+825,Ujjwala Restaurant
+826,Anna (Truly Veg)
+827,Nirmala Hotel & Restaurant
+828,Truck Wala Dhaba
+829,Cafe 99
+830,CAKE AND ICE PARLOUR
+831,SGS Fast Food
+832,Mezang Traditional Restaurant
+833,SKI Heaven Food
+834,The Spicy Treat
+835,Bosco Food Hub
+836,USPFC - US Pizza & Fried Chicken
+837,7th Heaven Cake Shop
+838,Sagar Restaurant
+839,Sunny's Restaurant - Keishampat
+840,Samoxa
+841,Like Momo
+842,New Blue Moon
+843,Tasty Tastes - Nagmapal
+844,One Bite
+845,Haona Chao
+846,ABC Fast Food
+847,Eikhoi Chakshang
+848,Smoke House - Sangaiprou
+849,Punjabi Tikka Restaurant
+850,Food Zilla
+851,Devrana Express
+852,4 Seasons
+853,One Bite New
+854,Sangai Continental (Non Halal)
+855,Dawat-E-Khas Sweets & Snacks
+856,Deja Vu
+857,Snacks Point
+858,Mummy's kitchen
+859,Dreams Cafe
+860,Middle East Cafe
+861,Uncle Momos & Kitchen
+862,Mr Khan Restro
+863,Lilac Cafe
+864,Infusion
+865,The Thangapat Restaurant
+866,Nakama Cafe
+867,9 Hills Bistro
+868,A1
+869,Uncle Ugen's Momo
+870,Khullak Cafe
+871,Singju Imphal
+872,City Dhaba
+873,FIKA
+874,Frys
+875,175 C
+876,Poirei Com Cake Shop
+877,Boketto Cafe And Restaurant
+878,Munchies
+879,Old Delhi Grillzz
+880,Hotel Enchanto Imphal
+881,Meat Zone
+882,Somewhere Cafe
+883,Cheapest Food Zone
+884,Clique
+885,Chindam Cafe
+886,Caffe In
+887,Talk Of The Town (Bt Road)
+888,Crush Restaurant
+889,Dawat-E-Khas Restaurant
+890,The Hungry Beings
+891,Le Zara
+892,Dweller Teas & Snacks
+893,Mellow
+894,Naobas Chakhumang Restaurant
+895,Kim Pou Restaurent
+896,The Phoenix Residency
+897,Mikado Restaurant
+898,City Hut Family Dhaba
+899,Lamee
+900,Slice of Shillong
+901,Trelly
+902,The Chicken Wagon
+903,Long Jhon Silver's
+904,Baba Tourist Lodge
+905,Southern Taste
+906,Dejavu
+907,House of parathas
+908,Madras Cafe
+909,Shaan Sweets And Snacks
+910,DragonWok Restaurant
+911,Food Lovers Restaurant
+912,New Khusboo Biryani (Halal)
+913,The biryani story (HALAL)
+914,Indiana Restaurant
+915,Wooden Plate
+916,Bread Cafe
+917,Jiva Veg
+918,Hotel Heiga
+919,Eden Restaurant
+920,Aurora Restaurant & Lodging
+921,Cafe Aurora
+922,Crescent International Hotel
+923,Bambusa Express
+924,Ooopar Resto
+925,Friends Cafe
+926,Sumi Ethnic
+927,Tibet Kitchen
+928,Shabal Restaurant
+929,51 Rainbows
+930,Amaris
+931,The Core
+932,Yummy Bites
+933,The cherith
+934,Royal Veg. Hotel
+935,Bambusa express
+936,Slurppy Yummy
+937,KC'S Kitchen
+938,Wok N Roll
+939,Otssi ohan
+940,Zero Miles
+941,Ao Rice Hotel
+942,Hungry Panda
+943,The Family Food Truck
+944,Food moments
+945,Wrap the cravings
+946,Swu'S Kitchen
+947,Aahar Kolkatta Biryani
+948,Hotel Platinum & Restaurant
+949,I food u
+950,Emerald 3:14
+951,Eleven Aizawl
+952,Roti Tarka
+953,Momo Cafe
+954,Desi Choka
+955,Kori's
+956,Stay Fit Kitchen
+957,Alpha Pizza House
+958,Royal Kitchen
+959,Pop Seoul
+960,Food Hub
+961,Zawlbuk
+962,Mamagoto
+963,Cafe La
+964,Buzz Inn Restaurant
+965,Shawarma Hut
+966,Absolute Shawarma
+967,Mad Over Shawarma
+968,Elite Kitchen
+969,Chopstyx
+970,Felafels Restaurant
+971,Cocoberry
+972,Crown Restaurant
+973,Khuangthali Restaurant
+974,Jonas Cafe
+975,Taste Buds
+976,Thali Junction
+977,The Sweet Cafe
+978,Bowljini Mix Eat Repeat
+979,Flavours Of Punjab
+980,Sher E Punjab
+981,Purple Restaurant & lounge bar
+982,New Parivar Restaurant
+983,Rasoi Restaurant
+984,Noor The Biryani House
+985,Hosanna Restaurant
+986,Zongri Bakery & Cafe
+987,Treat
+988,Delicious Kitchen
+989,Valley Vista
+990,Etho Metho
+991,Roll Corner
+992,Hot Stuff Fast Food
+993,Mama's Kitchen

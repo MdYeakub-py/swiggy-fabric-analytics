@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Swiggy Data Analytics Power BI Dashboard"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "5af093f2-b778-4448-995f-f27b278d6c7a"
+  }
+}

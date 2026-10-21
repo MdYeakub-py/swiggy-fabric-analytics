@@ -1,0 +1,25 @@
+{
+  "name": "Swiggy Sales Analysis",
+  "dataColors": ["#8B2A0C", "#F29270", "#A33E1F", "#E0703A", "#C25A32", "#D9A38F", "#5E1700", "#F5B999"],
+  "background": "#FFFFFF",
+  "foreground": "#2B2B2B",
+  "tableAccent": "#8B2A0C",
+  "good": "#2E7D32",
+  "neutral": "#E0703A",
+  "bad": "#B71C1C",
+  "textClasses": {
+    "title": { "fontFace": "Segoe UI Semibold", "fontSize": 12, "color": "#2B2B2B" },
+    "label": { "fontFace": "Segoe UI", "fontSize": 10, "color": "#2B2B2B" },
+    "callout": { "fontFace": "Segoe UI Semibold", "fontSize": 24, "color": "#1F1F1F" }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }],
+        "border": [{ "show": true, "color": { "solid": { "color": "#E5D6CE" } }, "radius": 8 }],
+        "title": [{ "show": true, "fontColor": { "solid": { "color": "#2B2B2B" } }, "fontSize": 12, "bold": true }]
+      },
+      "page": [{ "background": [{ "color": { "solid": { "color": "#FDF4EE" } }, "transparency": 0 }] }]
+    }
+  }
+}

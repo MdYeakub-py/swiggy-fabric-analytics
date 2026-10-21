@@ -1,0 +1,16 @@
+relationship e4bd8817-3e42-46fe-bc86-15ccfd90c806
+	fromColumn: Fact_Orders.date_id
+	toColumn: Dim_Date.date_id
+
+relationship 89a8dd96-b69c-470d-a858-a6b12b719ca0
+	fromColumn: Fact_Orders.location_id
+	toColumn: Dim_Location.location_id
+
+relationship bca4a843-3bfc-4a41-84a4-d3f03570cd50
+	fromColumn: Fact_Orders.restaurant_id
+	toColumn: Dim_Restaurant.restaurant_id
+
+relationship beb82cad-ece4-4db0-b541-f02d45a009aa
+	fromColumn: Fact_Orders.food_id
+	toColumn: Dim_Dish.dish_id
+

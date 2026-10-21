@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Swiggy Data Analytics Power BI Dashboard"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "ee1a9e8d-26bb-4be4-9b52-029b25180e18"
+  }
+}

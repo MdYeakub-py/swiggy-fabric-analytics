@@ -1,0 +1,171 @@
+table Fact_Orders
+	lineageTag: 263f1695-6dc9-4674-8e8c-9e9b9db2c195
+	sourceLineageTag: b7ad75bc-c675-4533-baf0-179d92ea4dba
+
+	/// Total revenue = sum of order price.
+	measure 'Total Sales' = SUM ( Fact_Orders[price] )
+		displayFolder: KPIs
+		lineageTag: e8a79d8a-b550-449a-bcb0-e352be90cead
+
+		formatStringDefinition =
+				SWITCH (
+				    TRUE (),
+				    ABS ( SELECTEDMEASURE () ) >= 1000000, "$#,0.00,,""M""",
+				    ABS ( SELECTEDMEASURE () ) >= 1000, "$#,0.00,""K""",
+				    "$#,0.00"
+				)
+
+		changedProperty = IsHidden
+
+	/// Number of distinct orders.
+	measure 'Total Orders' = DISTINCTCOUNT ( Fact_Orders[order_id] )
+		displayFolder: KPIs
+		lineageTag: 2f2cd832-7569-4ba1-ae0c-2f3627994b58
+
+		formatStringDefinition =
+				SWITCH (
+				    TRUE (),
+				    ABS ( SELECTEDMEASURE () ) >= 1000000, "#,0.00,,""M""",
+				    ABS ( SELECTEDMEASURE () ) >= 1000, "#,0.00,""K""",
+				    "#,0"
+				)
+
+		changedProperty = IsHidden
+
+	/// Total Sales divided by Total Orders.
+	measure 'Avg Order Value' = DIVIDE ( [Total Sales], [Total Orders] )
+		formatString: $#,0.00
+		displayFolder: KPIs
+		lineageTag: 4cf3073e-f0f8-4ae6-9994-4ae5f946c71c
+
+		changedProperty = IsHidden
+
+	/// Simple average of order rating.
+	measure 'Avg Rating' = AVERAGE ( Fact_Orders[rating] )
+		formatString: 0.00
+		displayFolder: KPIs
+		lineageTag: ad93ee0a-9445-4d73-906c-3beb62934277
+
+		changedProperty = IsHidden
+
+	/// Total number of customer ratings.
+	measure 'Rating Count' = SUM ( Fact_Orders[rating_count] )
+		displayFolder: KPIs
+		lineageTag: cd851071-f8e0-4cc2-bc48-1cdec3fc4140
+
+		formatStringDefinition =
+				SWITCH (
+				    TRUE (),
+				    ABS ( SELECTEDMEASURE () ) >= 1000000, "#,0.00,,""M""",
+				    ABS ( SELECTEDMEASURE () ) >= 1000, "#,0.00,""K""",
+				    "#,0"
+				)
+
+		changedProperty = IsHidden
+
+	/// Share of sales within the current slicer selection.
+	measure 'Sales % of Total' =
+			DIVIDE (
+			    [Total Sales],
+			    CALCULATE ( [Total Sales], ALLSELECTED () )
+			)
+		formatString: 0.0%
+		displayFolder: Analysis
+		lineageTag: d05ad41a-b5d0-46d9-9f81-6838ecd799e0
+
+		changedProperty = IsHidden
+
+	column order_id
+		dataType: int64
+		formatString: 0
+		lineageTag: 32b840bf-e715-4a1d-9139-cc2aa811a620
+		sourceLineageTag: 59049a64-8246-43e5-bd2b-a155b8b00d99
+		dataCategory: Uncategorized
+		summarizeBy: sum
+		sourceColumn: order_id
+
+		annotation SummarizationSetBy = User
+
+	column date_id
+		dataType: int64
+		formatString: 0
+		lineageTag: 907646e0-d2da-4b46-8164-b8242c5ff9bc
+		sourceLineageTag: 3abb84cd-8f8c-4462-aa34-b097924d4ec9
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: date_id
+
+		annotation SummarizationSetBy = User
+
+	column location_id
+		dataType: int64
+		formatString: 0
+		lineageTag: e19ee731-2e6b-46e9-9059-a03c321cfbc7
+		sourceLineageTag: 42fc3db2-01d0-44a7-9332-d40356b47c6f
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: location_id
+
+		annotation SummarizationSetBy = User
+
+	column restaurant_id
+		dataType: int64
+		formatString: 0
+		lineageTag: 8788f207-ebf4-494e-8828-27b147c7b5b4
+		sourceLineageTag: 93998648-0627-46ec-ae0a-5af305166416
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: restaurant_id
+
+		annotation SummarizationSetBy = User
+
+	column food_id
+		dataType: int64
+		formatString: 0
+		lineageTag: 5d0c8265-839a-4d33-af3a-420bd7aaf4ad
+		sourceLineageTag: e01044ac-12a7-45f3-b048-05a10581b359
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: food_id
+
+		annotation SummarizationSetBy = User
+
+	column price
+		dataType: double
+		lineageTag: 603c3102-a07f-495d-8a29-617b18f03fe6
+		sourceLineageTag: e4bf33be-919a-4c6d-a81d-4ab0c20f45a2
+		dataCategory: Uncategorized
+		summarizeBy: sum
+		sourceColumn: price
+
+		annotation SummarizationSetBy = User
+
+	column rating
+		dataType: double
+		lineageTag: a4970d4e-7611-4304-8f7b-ae53210b1f34
+		sourceLineageTag: 070762c0-676d-42d3-8955-7fd0c00eded7
+		dataCategory: Uncategorized
+		summarizeBy: sum
+		sourceColumn: rating
+
+		annotation SummarizationSetBy = User
+
+	column rating_count
+		dataType: int64
+		formatString: 0
+		lineageTag: 03b41676-c6ee-493d-941d-462fbf76a852
+		sourceLineageTag: 1b4907ce-068a-49f7-9e56-f10ac2898df0
+		dataCategory: Uncategorized
+		summarizeBy: sum
+		sourceColumn: rating_count
+
+		annotation SummarizationSetBy = User
+
+	partition Fact_Orders = entity
+		mode: directQuery
+		source
+			entityName: Swiggy_project Fact_Orders
+			expressionSource: 'DirectQuery to AS - Swiggy_Power_BI_Semantic_Model'
+
+	changedProperty = Name
+

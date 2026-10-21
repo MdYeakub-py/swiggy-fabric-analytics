@@ -1,0 +1,100 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/report/3.3.0/schema.json",
+  "themeCollection": {
+    "baseTheme": {
+      "name": "Fluent2-CY26SU10",
+      "reportVersionAtImport": {
+        "visual": "2.14.0",
+        "report": "3.4.0",
+        "page": "2.3.1"
+      },
+      "type": "SharedResources"
+    },
+    "customTheme": {
+      "name": "Swiggy_Sales_Analysis7434657471870392.json",
+      "reportVersionAtImport": {
+        "visual": "2.14.0",
+        "report": "3.4.0",
+        "page": "2.3.1"
+      },
+      "type": "RegisteredResources"
+    }
+  },
+  "objects": {
+    "section": [
+      {
+        "properties": {
+          "verticalAlignment": {
+            "expr": {
+              "Literal": {
+                "Value": "'Top'"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "resourcePackages": [
+    {
+      "name": "SharedResources",
+      "type": "SharedResources",
+      "items": [
+        {
+          "name": "Fluent2-CY26SU10",
+          "path": "BaseThemes/Fluent2-CY26SU10.json",
+          "type": "BaseTheme"
+        }
+      ]
+    },
+    {
+      "name": "RegisteredResources",
+      "type": "RegisteredResources",
+      "items": [
+        {
+          "name": "checkout7428902297098419.png",
+          "path": "checkout7428902297098419.png",
+          "type": "Image"
+        },
+        {
+          "name": "economics23474568887028702.png",
+          "path": "economics23474568887028702.png",
+          "type": "Image"
+        },
+        {
+          "name": "rating_(3)11428267387145075.png",
+          "path": "rating_(3)11428267387145075.png",
+          "type": "Image"
+        },
+        {
+          "name": "revenue2491145135918219.png",
+          "path": "revenue2491145135918219.png",
+          "type": "Image"
+        },
+        {
+          "name": "star_(1)21297071968628178.png",
+          "path": "star_(1)21297071968628178.png",
+          "type": "Image"
+        },
+        {
+          "name": "Swiggy_logo_1547684835650659.png",
+          "path": "Swiggy_logo_1547684835650659.png",
+          "type": "Image"
+        },
+        {
+          "name": "Swiggy_Sales_Analysis7434657471870392.json",
+          "path": "Swiggy_Sales_Analysis7434657471870392.json",
+          "type": "CustomTheme"
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "useStylableVisualContainerHeader": true,
+    "exportDataMode": "AllowSummarized",
+    "defaultDrillFilterOtherVisuals": true,
+    "allowChangeFilterTypes": true,
+    "useEnhancedTooltips": true,
+    "useDefaultAggregateDisplayName": true
+  }
+}

@@ -1,0 +1,54 @@
+table Dim_Location
+	lineageTag: 00dd3f14-0464-409d-bf6f-bfb0f19f6801
+	sourceLineageTag: c52a819f-b463-418e-bcdf-346658f71c56
+
+	column location_id
+		dataType: int64
+		isNullable: false
+		formatString: 0
+		lineageTag: 4ba006c1-b788-46a5-bc3d-5cfba7a36053
+		sourceLineageTag: abbf5735-ac1f-4d6f-a01c-74e88226c385
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: location_id
+
+		annotation SummarizationSetBy = User
+
+	column state
+		dataType: string
+		lineageTag: 8771f116-a1f2-44b0-b751-9a95b016e358
+		sourceLineageTag: a40f0802-20f2-44dd-a291-f922f9ab700b
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: state
+
+		annotation SummarizationSetBy = User
+
+	column city
+		dataType: string
+		lineageTag: dc0058ed-7334-4cfa-9ad0-1dfa0eb18a99
+		sourceLineageTag: dca34301-3928-4fa6-82c7-88c2bc0bea50
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: city
+
+		annotation SummarizationSetBy = User
+
+	column location
+		dataType: string
+		lineageTag: cee58ec6-cebe-484e-8ea4-91f18db83d20
+		sourceLineageTag: ffd57c6d-764b-498c-a944-9cc34181e09a
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: location
+
+		annotation SummarizationSetBy = User
+
+	partition Dim_Location = entity
+		mode: directQuery
+		source
+			entityName: Swiggy_project Dim_Location
+			expressionSource: 'DirectQuery to AS - Swiggy_Power_BI_Semantic_Model'
+
+	changedProperty = Name
+
