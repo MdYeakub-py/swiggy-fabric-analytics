@@ -10,7 +10,9 @@
 ![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
 ![Delta Lake](https://img.shields.io/badge/Delta%20Lake-00ADD8?style=for-the-badge&logo=delta&logoColor=white)
 
-![Swiggy Dashboard](Swiggy Data Analytics Power BI Dashboard_page-0001.jpg)
+
+<img width="4839" height="2963" alt="Swiggy Data Analytics Power BI Dashboard_page-0001" src="https://github.com/user-attachments/assets/a3a3e43c-7f0a-41db-8269-beab9c1aaab5" />
+
 
 
 </div>
@@ -208,7 +210,8 @@ The interactive Power BI report includes:
 - **Sales by State:** state-wise sales comparison
 - **Slicers:** City, Food Type, Quarter, Restaurant
 
-![Dashboard Preview](assets/Swiggy_Data_Analytics_Power_BI_Dashboard.jpg)
+<img width="4839" height="2963" alt="Swiggy Data Analytics Power BI Dashboard_page-0001" src="https://github.com/user-attachments/assets/aae37d54-3742-4efb-9c4b-53007fafa4b3" />
+
 
 ---
 
@@ -286,9 +289,9 @@ swiggy-fabric-analytics/
 
 **Your Name**
 
-- GitHub: [@your-username](https://github.com/your-username)
-- LinkedIn: [your-linkedin](https://www.linkedin.com/in/your-linkedin)
-- Email: your.email@example.com
+- LinkedIn: [@mdyeakub35](https://www.linkedin.com/in/mdyeakub35/)
+- GitHub: [@MdYeakub-py](https://github.com/MdYeakub-py)
+- Email: mdyeakub.cse@gmail.com
 
 ---
 
