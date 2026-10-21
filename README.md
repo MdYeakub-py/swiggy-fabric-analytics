@@ -10,7 +10,8 @@
 ![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
 ![Delta Lake](https://img.shields.io/badge/Delta%20Lake-00ADD8?style=for-the-badge&logo=delta&logoColor=white)
 
-![Swiggy Dashboard](assets/Swiggy_Data_Analytics_Power_BI_Dashboard.jpg)
+![Swiggy Dashboard](Swiggy Data Analytics Power BI Dashboard_page-0001.jpg)
+
 
 </div>
 
